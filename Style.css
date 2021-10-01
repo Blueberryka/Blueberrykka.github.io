@@ -1,0 +1,118 @@
+body {
+    background-color:darkseagreen;
+    font-size: 20px;
+    color: black;
+}
+
+.rectangle {
+    background-image: url(img/%D0%B4%D0%BE%D0%BF%D0%BA%D0%B0.png);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding-top: 20px;
+    padding-bottom:10px;
+    color: #A9AE8D;
+}
+
+.doptitle {
+    position: absolute;
+    width: 288px;
+    height: 28px;
+    left: calc(50% - 288px/2);
+    top: -5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+/* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #A9AE8D;
+
+}
+
+
+
+.banner.p {
+    text-align: center;
+    
+}
+
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 20px;
+}
+
+.img {
+    
+    width: 380px;
+    height: 600px;
+    left: 3270px;
+    top: 3px;
+
+}
+
+
+.text {
+    text-align: center;
+}
+
+.info {
+    background-image: url(img/%D0%BF%D0%B5%D1%80%D1%81%D0%B8%D0%BA.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom:150px;
+    
+}
+
+.blogs_item {
+    display:flex;
+    align-items:center; 
+ }
+
+ .blogs_picture {
+    display: flex;
+    float: left;
+ }
+
+.blogs_content {
+    padding-left: 20px;
+ }
+
+.texts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    
+}
+
+h1 {
+    font-family: Roboto;
+    font-style:italic
+    font-weight: active;
+    font-size: 60px;
+    line-height: 30px;
+    text-align: center
+}
+
+.photos {
+    background-image: url(img/%D1%84%D0%BE%D0%BD%20%D1%81%20%D1%84%D0%BE%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.png);
+}
+
+.btn {
+    color:brown;
+    text-decoration: none;
+    font-size: 18px;
+}
+
